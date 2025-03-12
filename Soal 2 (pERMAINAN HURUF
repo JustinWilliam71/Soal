@@ -1,0 +1,51 @@
+Permainan Huruf Aslijan dan Indah
+Aslijan adalah anak yang kurang kerjaan. Pada suatu hari ketika sedang bermain dengan Indah, Indah menantang Aslijan untuk bermain kata kata. Namun karena Aslijan adalah orang yang pintar coding, Ia pun membuat kode python untuk bermain dengan Indah. Permainan ini menghitung huruf yang berada dalam sebuah kalimat berdasarkan bobot masing masing huruf, namun apabila huruf yang ada tidak memiliki bobot nilai, maka nilai kalimat tersebut akan dikurangi oleh penalti.
+
+Buatlah fungsi bernama jumlahkanHuruf() yang memiliki parameter kalimat dan penalti. Tujuan fungsi ini adalah untuk menghitung nilai huruf yang ada pada kalimat dan mengembalikan nilai akhirnya. Kalimat yang ada akan bersifat Case Sensitive yang artinya huruf “A” tidak bernilai sama dengan “a”.
+
+Bobot dan peraturan huruf akan dijelaskan dibawah ini.
+
+Nilai Huruf Pada Permainan
+Nilai 1 poin akan ditambahkan apabila terdapat huruf “i”,”I” (i uppercase) dan “l” (L lowercase).
+
+Nilai 2 poin akan ditambahkan apabila terdapat huruf “Z” atau “z”.
+
+Nilai 3 poin akan ditambahkan apabila terdapat huruf “E”.
+
+Nilai 4 poin akan ditambahkan apabila terdapat huruf “A”.
+
+Nilai 5 poin akan ditambahkan apabila terdapat huruf “S” atau “s”.
+
+Nilai 6 poin akan ditambahkan apabila terdapat huruf “b”.
+
+Nilai 7 poin akan ditambahkan apabila terdapat huruf “T”.
+
+Nilai 8 poin akan ditambahkan apabila terdapat huruf “B”.
+
+Nilai 9 poin akan ditambahkan apabila terdapat huruf “q”.
+
+Nilai 10 poin akan ditambahkan apabila terdapat huruf “O” dan “o”
+
+Nilai berdasarkan angka akan ditambahkan apabila terdapat angka dalam kalimat tersebut (dapat dilihat pada contoh 2)
+
+Huruf lain, whitespace dan simbol apapun akan dihitung sebagai pengurangan penalti yang sudah ditentukan pada awal fungsi.
+
+Fungsi ini kemudian akan mengembalikan jumlah nilai akhir pada kalimat tersebut setelah pengurangan penalti.
+
+Penjelasan Parameter:
+Terdapat 2 parameter pada fungsi ini, nama parameter tidak harus disamakan dengan contoh.
+
+kalimat = Tipe data String, Memberikan satu string dengan minimal 1 karakter. String ini akan mengandung alphabet, angka, simbol, whitespace atau kombinasi dari keempat hal tersebut.
+
+penalti = Tipe data Integer, Pengurangan nilai apabila huruf yang ditentukan tidak terdapat dalam perhitungan poin diatas. Penalti dipastikan berupa integer dan BOLEH bernilai negatif
+
+ 
+
+Catatan Tambahan:
+Mohon BACA SOAL terlebih dahulu, apabila masih tidak jelas baru ditanyakan kepada asdos.
+
+Boleh menggunakan fungsi try and except untuk mempermudah memeriksa huruf pada string kalimat.
+
+Boleh menggunakan fungsi OR pada percabangan yang ada.
+
+Perhatikan KAPITALISASI pada output akhi
